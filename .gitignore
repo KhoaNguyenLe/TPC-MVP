@@ -1,0 +1,10 @@
+# This workspace also contains its local Python virtual environment.
+/Include/
+/Lib/
+/Scripts/
+/pyvenv.cfg
+
+# Local integration test data and generated state.
+/sampletest/
+/contexttide/.env
+/contexttide/.contexttide/

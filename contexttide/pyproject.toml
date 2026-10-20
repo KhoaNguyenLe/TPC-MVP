@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contexttide"
+version = "0.1.0"
+description = "Team project context for MCP coding sessions"
+requires-python = ">=3.11"
+dependencies = ["fastmcp>=4.1,<5", "python-dotenv>=1.1"]
+
+[project.scripts]
+contexttide = "contexttide.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
